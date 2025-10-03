@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "Hambúrguer",
+        "preco": 15.0
+    },
+    {
+        "nome": "Pizza",
+        "preco": 25.0
+    },
+    {
+        "nome": "Pizza",
+        "preco": 25.0
+    },
+    {
+        "nome": "Refrigerante",
+        "preco": 6.0
+    },
+    {
+        "nome": "Refrigerante",
+        "preco": 6.0
+    },
+    {
+        "nome": "Hambúrguer",
+        "preco": 15.0
+    },
+    {
+        "nome": "Pizza",
+        "preco": 25.0
+    }
+]
