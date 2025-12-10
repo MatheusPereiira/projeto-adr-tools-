@@ -10,7 +10,6 @@
 
 <p align="center">
   <a><img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python"></a>
-  <a><img src="https://img.shields.io/badge/PyQt6-GUI-green?style=for-the-badge&logo=qt"></a>
   <a><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"></a>
 </p>
 
