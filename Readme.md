@@ -1,18 +1,90 @@
-O que são Registros de Decisão de Arquitetura ADRs?
+<p align="center">
+  <img src="images/banner.png" width="100%">
+</p>
 
+<h1 align="center">📚 ADR TOOLS</h1>
 
-ADRs (Architecture Decision Records) são documentos concisos que servem como um diário das escolhas estruturais mais importantes feitas no projeto de software. Cada registro captura o contexto que levou à decisão, a própria decisão tomada, e as consequências esperadas (tanto positivas quanto negativas). O principal objetivo é estabelecer uma memória institucional, permitindo que a equipe e futuros colaboradores entendam a trajetória e os motivos por trás da arquitetura atual.
+<p align="center">
+  <img src="images/logo.png" width="180">
+</p>
 
-Metodologia de Registro das Decisões:
-Para gerenciar e padronizar esses documentos, utilizamos a ferramenta adr-tools. Essa abordagem agiliza o processo de documentação. Todos os ADRs criados estão localizados no diretório doc/adr e são rastreados pelo Git, garantindo que o histórico de decisões esteja sempre versionado e alinhado com o código-fonte do projeto.
+<p align="center">
+  <a><img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python"></a>
+  <a><img src="https://img.shields.io/badge/PyQt6-GUI-green?style=for-the-badge&logo=qt"></a>
+  <a><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"></a>
+</p>
 
-A criação de um novo registro é feita de forma simples, utilizando o comando adr new, que gera automaticamente um arquivo Markdown já formatado.
+---
 
-A Importância das Decisões Fundamentais:
-As escolhas de arquitetura registradas neste repositório são pilares para a robustez e a evolução do projeto:
+# 📝 Sobre o Projeto
 
-Arquitetura em Camadas (0002-escolha-de-arquitetura-em-camadas.md): Esta decisão estabelece uma fronteira clara entre a apresentação, o processamento da lógica de negócio e a persistência de dados. Isso resulta em um sistema mais modular, fácil de testar e simples de manter.
+O **ADR Tools** é uma aplicação desktop desenvolvida em **Python para facilitar a criação, listagem e gerenciamento de **ADRs (Architecture Decision Records)** — documentos essenciais para registrar decisões arquiteturais em projetos de software.
 
-Banco de Dados PostgreSQL (0003-escolha-de-banco-de-dados-postgresql.md): Optamos pelo PostgreSQL, um sistema relacional, devido à necessidade de armazenar dados de forma estruturada. Além disso, o conhecimento prévio da equipe em SQL e os recursos avançados deste banco facilitam tanto o desenvolvimento quanto a administração dos dados.
+Com ele, você pode:
 
-Integração Contínua com GitHub Actions (0004-integracao-continua-com-github-actions.md): A implementação do GitHub Actions é essencial para automatizar nosso fluxo de trabalho. Essa automação permite que testes sejam executados e o código seja preparado para implantação (deploy) automaticamente a cada commit, assegurando a qualidade e a rapidez na entrega contínua do software.
+- ✔ Criar ADRs automaticamente  
+- ✔ Listar decisões existentes  
+- ✔ Manter histórico padronizado  
+- ✔ Gerar arquivos Markdown  
+- ✔ Organizar decisões de Engenharia de Software  
+
+Ferramenta ideal para estudantes e desenvolvedores que buscam documentar decisões técnicas com boas práticas.
+
+---
+
+# 🚀 Como executar o projeto
+
+## 1️⃣ Clone o repositório
+```bash
+git clone https://github.com/MatheusPereiira/projeto-adr-tools-
+cd projeto-adr-tools-
+```
+
+---
+
+# 📄 Modelo de ADR (Exemplo)
+
+```md
+# ADR 001: Nome da decisão
+
+## Status
+Aceito | Proposto | Rejeitado | Depreciado
+
+## Contexto
+Descreva o cenário que motivou a decisão.
+
+## Decisão
+Explique a decisão tomada e os motivos por trás dela.
+
+## Consequências
+Liste impactos positivos e negativos dessa decisão.
+```
+
+---
+
+# 📂 Estrutura do Projeto
+
+```bash
+projeto-adr-tools-/
+│   ├── doc/              # Templates dos ADRs
+├── images/
+│   ├── banner.png        # Banner do README
+│   └── logo.png          # Logo do projeto
+├── scr                   # Arquivo principal
+└── README.md             # Documentação
+```
+
+---
+
+# 📄 Licença
+Este projeto está licenciado sob a **MIT License**.  
+Você pode usar, modificar e distribuir livremente.
+
+---
+
+# 👤 Autor
+**Matheus Pereira**  
+🔥 Apaixonado por Python, automação e desenvolvimento desktop.  
+📬 GitHub: https://github.com/MatheusPereiira  
+
+---
