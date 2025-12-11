@@ -17,7 +17,7 @@
 
 # 📝 Sobre o Projeto
 
-O **ADR Tools** é uma aplicação desktop desenvolvida em **Python para facilitar a criação, listagem e gerenciamento de **ADRs (Architecture Decision Records)** — documentos essenciais para registrar decisões arquiteturais em projetos de software.
+O **ADR Tools** é uma aplicação desktop desenvolvida em **Python** para facilitar a criação, listagem e gerenciamento de **ADRs (Architecture Decision Records)** — documentos essenciais para registrar decisões arquiteturais em projetos de software.
 
 Com ele, você pode:
 
